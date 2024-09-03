@@ -1,0 +1,180 @@
+.container {
+  padding: 2rem;
+  width: auto;
+}
+
+.homeContainer {
+  padding: 1rem;
+  width: 85vw;
+  height: auto;
+}
+
+.form {
+  width: 100%;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: auto;
+  height: auto;
+}
+
+.inputItem {
+  flex: 1 1 200px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+
+.inputItem > .bx--dropdown,
+.inputItem > .bx--text-input {
+  width: auto;
+}
+
+.multiSelectMessage {
+  margin-top: 8px;
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.dropdownWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdownLabel {
+  margin-bottom: 0.5rem;
+}
+
+.dropdown {
+  width: 100%;
+}
+
+.inputWrapper, .inputItem {
+  box-sizing: border-box;
+}
+
+.buttonContainer {
+  width: 100%;
+}
+
+.button {
+  display: flex;
+  white-space: nowrap;
+  justify-content: flex-start;
+}
+
+.parameterInput {
+  flex: 1 1 200px;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+.columnSelectMessage {
+  padding-top: 1rem;
+  padding-right: 5rem;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+  gap: 8px;
+  width: 100%;
+}
+
+.parametersContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.dataTableContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  padding-right: 1rem;
+  border: solid 1px #e0e0e0;
+  max-height: calc(100vh - 200px);
+  width: 85vw;
+  height: 100vh;
+}
+
+.layer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+  padding: 2rem;
+
+}
+
+.dataTableFullContainer {
+  margin-top: 2rem;
+  padding: 1rem;
+  overflow: auto;
+
+}
+.contentWrapper {
+  position: relative;
+  margin-top: 2rem;
+}
+.tableHeader,
+.tableCell {
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.tableHeader {
+  max-width: 100px;
+  text-align: center;
+}
+
+.dataCell {
+  padding: 0;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+}
+
+.dataCellHeader {
+  background-color: #e0e0e0;
+  text-align: center;
+}
+
+.dataCellValue {
+  text-align: center;
+}
+
+.tileContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.tileContent {
+  text-align: center;
+}
+
+.pagination {
+  margin-top: 1rem;
+}
