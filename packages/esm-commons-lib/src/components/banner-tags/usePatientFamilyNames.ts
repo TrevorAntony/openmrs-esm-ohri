@@ -28,7 +28,10 @@ export const usePatientFamilyNames = (patientUuid: string) => {
       }
 
       const childRelationships = relationships
-        .filter((relationship) => relationship.relationshipType?.displayBIsToA === 'Child')
+        .filter(
+          (relationship) =>
+            relationship.relationshipType?.displayBIsToA === 'Child' && relationship.personB?.uuid !== patientUuid,
+        )
         .map((relationship) => relationship.personB?.display);
 
       setChildrenNames(childRelationships);
